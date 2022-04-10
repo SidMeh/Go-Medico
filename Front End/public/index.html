@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+  <script
+    src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+    crossorigin></script>
+  
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+
+  <script
+    src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+    crossorigin></script>
+  
+  <script>var Alert = ReactBootstrap.Alert;</script>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+    <title>React App</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .topnav {
+        background-color: #0040ff;
+        overflow: hidden;
+      }
+      
+    
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 40px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+
+      .topnav a.active {
+        background-color: #ff00ff;
+        color: white;
+      }
+      
+  
+      .topnav .icon {
+        display: none;
+      }
+
+      .resimg {
+        width: 100%;
+        height: 80vh;
+      }
+      
+      .bgh{
+        text-align: center;
+        position: absolute;
+        color: white;
+        top: 25vh;
+        text-align: center;
+        font-size: 11em;
+        
+      }
+
+      .cards {
+        
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 0rem;
+        left: 10%; */
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        /* justify-content: center; */
+        justify-content: space-evenly;
+        margin-left: 10px;
+
+        }
+        .card {
+          background-color : "#80ff00";
+          width: '18rem';
+        }
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          background-color: 	#F0F0F0
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="root"></div>
+
+  </body>
+
+</html>
